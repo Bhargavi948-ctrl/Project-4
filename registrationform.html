@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Registrationform
+        </title>
+          <style>
+            body{
+                background-image: url("register.png");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            h1{
+                color:rgb(0, 26, 255)
+            }
+            h2{
+                color:white;
+            }
+          </style> 
+        <body>
+            <form action="login.html">
+               <center><h1>RegistrationForm</h1><br>
+                User Name:<input type="text" name="name" placeholder="User Name"><br>
+                Password:<input type="password"name="choose your password" placeholder="Password"><br>
+                First Name:<input type="text"name="name" placeholder="First Name"><br>
+                Last Name:<input type="text"name="name" placeholder="Last Name"><br>
+                <h2>Select Gender</h2>
+                Gender<br>
+                <input type="radio"name="gender" value="m">male<br>
+                <input type="radio"name ="gender"value="f">female<br>
+                <input type="radio"name="gender"value="o">other<br>
+                Mobile Number:<input type="number"name="mobileno" placeholder="Mobile Number"><br>
+                Father Name:<input type="text"name="name" placeholder="Father Name"><br>
+                Mother Name:<input type="text"name="name" placeholder="Mother Name"><br>
+                Email:<input type="email"name="email" placeholder="Email"><br>
+                <h2>Select State</h2>
+                <select name="state">
+                    <option value = "India">India</option>
+                    <option value = "Russia">Russia</option>
+                    <option value="australia"> Australia</option>
+                    <option value="uk">UK</option>
+                </select>
+                <h2>Select Courses:</h2>
+                <input type ="checkbox" NAME="java">  java<br>
+                <input type ="checkbox" NAME="python">python<br>
+                <input type ="checkbox" NAME="c">     c<br>
+                <input type ="checkbox" NAME="html">  html<br>
+                <textarea name="my text" cols="50" row="600"></textarea><br>
+                <input type = "Submit"><br>
+                </center>
+            </form>
+        </body>
+    </head>
+</html>
